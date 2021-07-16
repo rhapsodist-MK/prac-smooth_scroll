@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box3 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.box3 .inner-box {
+    width: 30rem;
+    height: 30rem;
+    background-color: aquamarine;
+}
+
+.box3 .inner-box:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+}
